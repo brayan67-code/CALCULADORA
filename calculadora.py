@@ -18,6 +18,9 @@ def restar(numero1, numero2):
 def sumar(a, b):
     return a + b
 
+def potencia(a, b):
+    return a ** b
+
 
 # ---- Parte que hace que el programa muestre algo al ejecutarlo ----
 print("===== CALCULADORA (Oscar) =====")
@@ -39,6 +42,8 @@ elif opcion == "3" :
     print("Resultado:", restar(num1, num2))
 elif opcion == "4":
     print("Resultado:", sumar(num1, num2))
+elif opcion == "5":
+    print("Resultado:", potencia(num1, num2))
 else:
     print("Opcion no valida")
 
