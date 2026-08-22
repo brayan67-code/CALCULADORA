@@ -15,14 +15,18 @@ def dividir(a, b):
 def restar(numero1, numero2):
     return numero1 - numero2
 
+def suma(a, b):
+    return a + b
+
 
 # ---- Parte que hace que el programa muestre algo al ejecutarlo ----
 print("===== CALCULADORA (Oscar) =====")
 print("1. Multiplicar")
 print("2. Dividir")
 print("3. Resta")
+print("4. Suma")
 
-opcion = input("Elige una opcion (1, 2, y 3): ")
+opcion = input("Elige una opcion (1, 2, 3 y 4): ")
 
 num1 = float(input("Escribe el primer número: "))
 num2 = float(input("Escribe el segundo número: "))
@@ -33,14 +37,10 @@ elif opcion == "2":
     print("Resultado:", dividir(num1, num2))
 elif opcion == "3" :
     print("Resultado:", restar(num1, num2))
+elif opcion == "4":
+    print("Resultado:", suma(num1, num2))
 else:
     print("Opcion no valida")
 
 
-sumando1 = int(input("Ingrese el primer número: "))
-sumando2 = int(input("Ingrese el segundo número: "))
-
-suma = sumando1 + sumando2
-
-print("La suma es:", suma)
 
