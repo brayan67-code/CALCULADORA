@@ -1,8 +1,8 @@
 
 
 # calculadora.py
-# Backend de la calculadora - Oscar
-# Funciones: multiplicar y dividir
+# Backend de la calculadora 
+# Calculadora en equipo - Brayan, Santiago y Oscar
 
 def multiplicar(a, b):
     return a * b
@@ -15,7 +15,7 @@ def dividir(a, b):
 def restar(numero1, numero2):
     return numero1 - numero2
 
-def suma(a, b):
+def sumar(a, b):
     return a + b
 
 
@@ -23,8 +23,8 @@ def suma(a, b):
 print("===== CALCULADORA (Oscar) =====")
 print("1. Multiplicar")
 print("2. Dividir")
-print("3. Resta")
-print("4. Suma")
+print("3. Restar")
+print("4. Sumar")
 
 opcion = input("Elige una opcion (1, 2, 3 y 4): ")
 
@@ -38,7 +38,7 @@ elif opcion == "2":
 elif opcion == "3" :
     print("Resultado:", restar(num1, num2))
 elif opcion == "4":
-    print("Resultado:", suma(num1, num2))
+    print("Resultado:", sumar(num1, num2))
 else:
     print("Opcion no valida")
 
